@@ -46,6 +46,28 @@ body::after {
     top: 0;
 }
 
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.balkje{
+    position: relative;
+    margin-top: 50px;
+    color: white;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+a:visited, a:active, a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+
 h1{
     color:rgb(255, 255, 255);
     font-size: 35px;
@@ -74,29 +96,21 @@ p{
     display: inline-block;
     background: #e59441;
     border-radius: 5px;
-    margin-top: 60px;
-    margin-left: 40px;
+    margin-top: 5px;
+    margin-left: 42px;
     padding: 15px 30px;
     font-size: 18px;
     border: none;
     color: white;
   }
 
-
-
-.taal{
+.balkje{
     position: relative;
     margin-top: 50px;
     color: white;
     margin-right: 25px;
  
 
-}
-
-#header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 #contact{ 
